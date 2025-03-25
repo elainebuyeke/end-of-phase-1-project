@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+:root{
+    --tertiary-color:rgb(48, 47, 47);
+    --primary-white: white;
+}
+.main-page{
+    background-image: url(./css/style.css);
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 16px;
+}
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+nav{
+    padding: 24px;
+    display: flex;
+    align-items:flex-end;
+    color: black;
+}
+nav a{
+    color: var(--primary-white);
+    font-weight: 800;
+    font-size: x-large;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:rgb(15, 15, 97)
+}
