@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root{
-    --tertiary-color:rgb(48, 47, 47);
+    --tertiary-color:rgb(145, 13, 13);
     --primary-white: white;
 }
 .main-page{
-    background-image: url(./css/style.css);
+    background-image: url(/images/careers.jpg);
     min-height: 100vh;
     background-size:cover ;
     background-position: center;
@@ -18,16 +18,51 @@ nav{
     padding: 24px;
     display: flex;
     align-items:flex-end;
-    color: black;
 }
 nav a{
-    color: var(--primary-white);
     font-weight: 800;
     font-size: x-large;
-    padding: 8px 15px;
+    padding:15px 20px;
     letter-spacing: 1px;
     text-decoration: none;
+    color: white;
 }
 nav a:hover{
-    color:rgb(15, 15, 97)
+    color:var(--tertiary-color)
 }
+
+.main{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 40px;
+    flex:auto;
+    text-align: center;
+	
+}  
+
+.descr{
+    color: black;
+    font-size: 9ch;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.name{
+    font-family:"Nunito", sans-serif ;
+    color: black;
+    font-size:20ch;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+	width: 100%;
+    top:50%;
+	margin: auto;
+	margin-top: 238px;
+   
+}
+
