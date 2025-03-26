@@ -55,3 +55,28 @@ emailForm.addEventListener("submit", async (e) => {
         alert("An error occurred while subscribing.");
     }
 });
+
+document.querySelector("#change-form").addEventListener("submit", (event) => {
+    event.preventDefault();
+    
+    const newDescription = document.querySelector("#new-description").value;
+    const careerId = document.querySelector("#careers-name").dataset.id; 
+
+    if (!careerId) {
+        alert("Select a career first!");
+        return;
+    }
+
+    fetch(`http://localhost:3000/careers/${careerId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ description: newDescription })
+    })
+    .then(response => response.json())
+    .then(updatedCareer => {
+        displayDetails(updatedCareer); 
+        alert("Career updated successfully!");
+    })
+    .catch(err => console.error("Failed to update career:", err));
+});
+

@@ -159,7 +159,7 @@ nav a:hover{
 }
 
 
-#email-form {
+form {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -168,7 +168,7 @@ nav a:hover{
     align-items: center;
 }
 
-#email-form input {
+form input {
     padding: 10px;
     width: 250px;
     border: 2px solid #4b6cb7;
@@ -176,7 +176,7 @@ nav a:hover{
     font-size: 1rem;
 }
 
-#email-form button {
+form button {
     background: #4b6cb7;
     color: white;
     padding: 10px 15px;
@@ -186,7 +186,7 @@ nav a:hover{
     font-size: 1rem;
 }
 
-#email-form button:hover {
+form button:hover {
    background-color: white;
    color: #4b6cb7;;
 
