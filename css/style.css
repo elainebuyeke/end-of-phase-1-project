@@ -65,4 +65,20 @@ nav a:hover{
 	margin-top: 238px;
    
 }
+.body{
+    background-color: black
+}
 
+#about h1{
+    font-size: 11ch;
+    color: white
+}
+#about p{
+    font-size: 5ch;
+    color: white;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+#testimonies{
+    color: white;
+}
