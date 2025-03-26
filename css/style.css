@@ -28,7 +28,7 @@ nav a{
     color: white;
 }
 nav a:hover{
-    color:var(--tertiary-color)
+    color:rgb(4, 4, 85)
 }
 
 .main{
@@ -70,7 +70,7 @@ nav a:hover{
 }
 
 #about h1{
-    font-size: 11ch;
+    font-size: 9ch;
     color: white
 }
 #about p{
@@ -81,4 +81,80 @@ nav a:hover{
 }
 #testimonies{
     color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 7px;
+    min-height:50px;
+
+}
+#testimonies p{
+    font-style: italic;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 2.2ch;
+}
+#testimonies h4{
+    font-weight: 600;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+#testimonies-title{
+    font-size: 9ch;
+    color: white;
+}
+#testimonies div{
+    border-color: black;
+    border-width: 15px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: rgb(4, 4, 85);
+    padding: 5px;
+    flex-direction: column;
+    display: flex;
+    width: 15cm;
+    height: 4cm;
+}
+
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+input, select, button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

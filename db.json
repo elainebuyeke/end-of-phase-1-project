@@ -1,0 +1,47 @@
+{
+ "careers": [
+    {
+        "id":"1",
+        "field":"Healthcare",
+        "image":"/images/healthcare.jpeg",
+        "description":"Healthcare is a diverse field dedicated to improving and maintaining people's health. It includes careers such as doctors, nurses, pharmacists and medical researchers all working to diagnose, treat and prevent illnesses.Whether in hospitals,clinics or laboratories, healthcare professionals play a vital role in saving lives and enhancing well-being."
+
+    },
+    {
+        "id":"2",
+        "field":"Sales & marketing",
+        "image":"/images/sales.jpeg",
+        "description":"Sales and marketing focuses on promoting products and services, affecting customers and driving business growth. Professionals in this field such as sales representatives, marketing managers and digital marketers use strategies eg advertising, market research and customer engagement to boost brand awareness and increase sales."  
+    },
+    {
+        "id":"3",
+        "field":"Arts & communication",
+        "image":"/images/arts.jpeg",
+        "description":"Arts and communication is a creative field that focuses on expressing ideas, sharing information and engaging audiences. Careers in this field include graphic designers, writers, journalists and media specialists who use visual written and digital mediums to inform, entertain and inspire poeple."
+    },
+    {
+        "id":"4",
+        "field":"Information technology",
+        "image":"/images/tech.jpeg",
+        "description":"Information Technology(IT) is a dynamic field focused on developing, managing and securing computer systems and networks. Careers in IT include software developers, cybersecurity analysts and data scientists who use technology to solve problems, improve efficiency and drive innovation in various industries."
+    },
+    {
+        "id":"5",
+        "field":"Agriculture",
+        "image":"/images/agric.jpeg",
+        "description":"Agriculture is a vital field focused on farming, food production and sustainable resource management. Careers in this field include agricultural scientists, farmers and agribusiness professionals who work to improve crop yields, livestock care and environmental conversation to ensure a stable food supply for communities countrywide."
+    },
+    {
+        "id":"6",
+        "field":"Law & govt",
+        "image":"/images/law.jpeg",
+        "description":"Law and government is a field dedicated to upholding justice, creating policies and serving the public. Careers in this field include lawyers, judges, law enforcemnt officers and government officials who work to interpret laws, protect citizens and shape policies that impact society."
+    },
+    {
+        "id":"7",
+        "field":"Hospitality",
+        "image":"/images/hospitality.jpeg",
+        "description":"Hospitality is a dynamic field focused on providing excellent customer service in areas like tourism, lodging, food service and event planning. Careers in this industry include hotel managers,chefs,travel agents and event coordinators who create memorable experiences and ensure guest satisfaction."
+    }
+ ]
+}
