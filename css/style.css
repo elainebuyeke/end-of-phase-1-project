@@ -139,7 +139,7 @@ nav a:hover{
 }
 
 .career-fields span:hover {
-    background: white;
+    background: rgb(115, 142, 228);
     color: rgb(4, 4, 85);
 }
 
@@ -187,8 +187,8 @@ form button {
 }
 
 form button:hover {
-   background-color: white;
-   color: #4b6cb7;
+   background-color:  rgb(115, 142, 228);
+   color: rgb(4, 4, 85)
 
 }
 
@@ -233,6 +233,6 @@ footer {
     padding: 10px;
 }
 .fa-brands:hover{
-    color: #4b6cb7;
+    color: rgb(4, 4, 85);
     cursor: pointer;
 }
