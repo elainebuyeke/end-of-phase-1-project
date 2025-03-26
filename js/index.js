@@ -74,9 +74,9 @@ document.querySelector("#change-form").addEventListener("submit", (event) => {
     })
     .then(response => response.json())
     .then(updatedCareer => {
-        displayDetails(updatedCareer); 
+        displayDetails(updatedCareer);
         alert("Career updated successfully!");
     })
-    .catch(err => console.error("Failed to update career description", err));
+    .catch(err => console.error("Failed to update career:", err));
 });
 
