@@ -61,7 +61,7 @@ nav a:hover{
 }
 
 .descr{
-    color: black;
+    color: rgb(4, 4, 85);
     font-size: 6ch;
     font-weight: 500;
     font-style: italic;
@@ -71,7 +71,7 @@ nav a:hover{
     font-family:"Nunito", sans-serif ;
     color: black;
     font-size:17ch;
-    font-weight: 800;
+    font-weight: 900;
     text-align: center;
     justify-content: center;
 }
@@ -115,7 +115,11 @@ nav a:hover{
     margin: 40px auto;
     width: 80%;
 }
-
+.careerInfo h1{
+    color: #4b6cb7;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
 .career-fields {
     display: flex;
     justify-content: center;
@@ -131,12 +135,12 @@ nav a:hover{
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s;
+    border-width: 5cm;
 }
 
 .career-fields span:hover {
-    background: #ffcc00;
-    color: #333;
-    transform: scale(1.1);
+    background: white;
+    color: rgb(4, 4, 85);
 }
 
 
@@ -160,6 +164,8 @@ nav a:hover{
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
 #email-form input {

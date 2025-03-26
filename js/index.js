@@ -13,7 +13,7 @@ function fetchCareers() {
         .then(careers => {
             careers.forEach(career => {
                 let span = document.createElement("span");
-                span.textContent = career.name;
+                span.textContent = career.field;
                 span.style.cursor = "pointer";
                 span.addEventListener("click", () => {
                     displayDetails(career);
@@ -27,9 +27,9 @@ function fetchCareers() {
 }
 
 function displayDetails(career) {
-    document.querySelector("#careers-name").textContent = career.name;
+    document.querySelector("#careers-name").textContent = career.field;
     document.querySelector("#careers-image").src = career.image;
-    document.querySelector("#careers-image").alt = career.name;
+    document.querySelector("#careers-image").alt = career.field;
     document.querySelector("#career-description").textContent = career.description;
 }
 
@@ -38,7 +38,7 @@ emailForm.addEventListener("submit", async (e) => {
     const email = document.getElementById("email").value;
 
     try {
-        const response = await fetch("http://localhost:3000/subscriptions", {
+        const response = await fetch("http://localhost:3000/careers", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email })
