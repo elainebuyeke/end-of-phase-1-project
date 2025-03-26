@@ -188,7 +188,7 @@ form button {
 
 form button:hover {
    background-color: white;
-   color: #4b6cb7;;
+   color: #4b6cb7;
 
 }
 
@@ -226,4 +226,13 @@ footer {
     color: white;
     margin-top: 30px;
     font-size: 1rem;
+}
+
+.fa-brands{
+    font-size: x-large;
+    padding: 10px;
+}
+.fa-brands:hover{
+    color: #4b6cb7;
+    cursor: pointer;
 }

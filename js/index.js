@@ -33,8 +33,8 @@ function displayDetails(career) {
     document.querySelector("#career-description").textContent = career.description;
 }
 
-emailForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
+emailForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
     const email = document.getElementById("email").value;
 
     try {
@@ -77,6 +77,6 @@ document.querySelector("#change-form").addEventListener("submit", (event) => {
         displayDetails(updatedCareer); 
         alert("Career updated successfully!");
     })
-    .catch(err => console.error("Failed to update career:", err));
+    .catch(err => console.error("Failed to update career description", err));
 });
 
