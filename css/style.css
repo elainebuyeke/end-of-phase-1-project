@@ -1,8 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-:root{
-    --tertiary-color:rgb(145, 13, 13);
-    --primary-white: white;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
 .main-page{
     background-image: url(/images/careers.jpg);
     min-height: 100vh;
@@ -42,9 +54,15 @@ nav a:hover{
 	
 }  
 
+
+.info {
+    text-align: center;
+    margin: 20px 0;
+}
+
 .descr{
     color: black;
-    font-size: 9ch;
+    font-size: 6ch;
     font-weight: 500;
     font-style: italic;
 }
@@ -52,7 +70,7 @@ nav a:hover{
 .name{
     font-family:"Nunito", sans-serif ;
     color: black;
-    font-size:20ch;
+    font-size:17ch;
     font-weight: 800;
     text-align: center;
     justify-content: center;
@@ -65,96 +83,141 @@ nav a:hover{
 	margin-top: 238px;
    
 }
-.body{
-    background-color: black
-}
 
-#about h1{
-    font-size: 9ch;
-    color: white
-}
-#about p{
-    font-size: 5ch;
-    color: white;
-    word-spacing: 7px;
-    letter-spacing: 1px;
-}
-#testimonies{
-    color: white;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    gap: 7px;
-    min-height:50px;
-
-}
-#testimonies p{
-    font-style: italic;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-    font-size: 2.2ch;
-}
-#testimonies h4{
-    font-weight: 600;
-    font-size: larger;
-    letter-spacing: 1px;
-}
-#testimonies-title{
-    font-size: 9ch;
-    color: white;
-}
-#testimonies div{
-    border-color: black;
-    border-width: 15px;
-    border-style: solid;
-    border-radius: 40px;
-    background-color: rgb(4, 4, 85);
-    padding: 5px;
-    flex-direction: column;
-    display: flex;
-    width: 15cm;
-    height: 4cm;
-}
-
-
-.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
-
-h1 {
+#about {
+    padding: 50px;
     text-align: center;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+#about h1 {
+    color: #4b6cb7;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
-li {
-    cursor: pointer;
-    padding: 8px;
-    border-bottom: 1px solid #ccc;
+#about p {
+    font-size: 1.1rem;
+    color: #444;
 }
 
-li:hover {
-    background-color: #ddd;
+
+.careerInfo {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    width: 80%;
 }
 
-input, select, button {
-    display: block;
-    margin: 10px auto;
-    padding: 8px;
+.career-fields {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
 }
 
-button {
-    background-color: #007BFF;
+.career-fields span {
+    background: #4b6cb7;
     color: white;
-    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
-button:hover {
-    background-color: #0056b3;
+.career-fields span:hover {
+    background: #ffcc00;
+    color: #333;
+    transform: scale(1.1);
+}
+
+
+#careers-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#careers-image {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#email-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#email-form input {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #4b6cb7;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#email-form button {
+    background: #4b6cb7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#email-form button:hover {
+   background-color: white;
+   color: #4b6cb7;;
+
+}
+
+
+#testimonies-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #4b6cb7;
+    margin-top: 30px;
+}
+
+#testimonies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#testimonies div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #182848;
+    color: white;
+    margin-top: 30px;
+    font-size: 1rem;
 }
