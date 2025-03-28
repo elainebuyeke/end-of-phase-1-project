@@ -3,44 +3,44 @@
     {
         "id":"1",
         "field":"Healthcare",
-        "image":"/images/healthcare.jpeg",
+        "image":"https://cdn.prod.website-files.com/650c1bee516c4e723b11b29a/65206264927e177f8bd65950_651f6a5b0bcc2eb5956182ea_Top%252050%2520Healthcare%2520Companies%2520and%2520Their%2520Impact%2520on%2520the%2520Industry.webp",
         "description":"Healthcare is a diverse field dedicated to improving and maintaining people's health. It includes careers such as doctors, nurses, pharmacists and medical researchers all working to diagnose, treat and prevent illnesses.Whether in hospitals,clinics or laboratories, healthcare professionals play a vital role in saving lives and enhancing well-being."
 
     },
     {
         "id":"2",
         "field":"Sales & marketing",
-        "image":"/images/sales.jpeg",
+        "image":"https://clariongr.com/wp-content/uploads/2018/12/sales-marketing.jpg",
         "description":"Sales and marketing focuses on promoting products and services, affecting customers and driving business growth. Professionals in this field such as sales representatives, marketing managers and digital marketers use strategies eg advertising, market research and customer engagement to boost brand awareness and increase sales."  
     },
     {
         "id":"3",
         "field":"Arts & communication",
-        "image":"/images/arts.jpeg",
+        "image":"https://media.licdn.com/dms/image/v2/D4D12AQEgj9lGPRWxgQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1710001954862?e=2147483647&v=beta&t=bxJfAHtyvXypqtFO5xsSv1_zO0mfa3nx9Szb2ALKg3E",
         "description":"Arts and communication is a creative field that focuses on expressing ideas, sharing information and engaging audiences. Careers in this field include graphic designers, writers, journalists and media specialists who use visual written and digital mediums to inform, entertain and inspire poeple."
     },
     {
         "id":"4",
         "field":"Information technology",
-        "image":"/images/tech.jpeg",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRngRWyJioVI261T8OaIVi8kzdGPOJuh8Dh5Q&s",
         "description":"Information Technology(IT) is a dynamic field focused on developing, managing and securing computer systems and networks. Careers in IT include software developers, cybersecurity analysts and data scientists who use technology to solve problems, improve efficiency and drive innovation in various industries."
     },
     {
         "id":"5",
         "field":"Agriculture",
-        "image":"/images/agric.jpeg",
+        "image":"https://dca.uonbi.ac.ke/sites/dca.uonbi.ac.ke/files/styles/large/public/2020-10/Agriculture%20Technology%20Transfer.jpeg?itok=lDKK9hDV",
         "description":"Agriculture is a vital field focused on farming, food production and sustainable resource management. Careers in this field include agricultural scientists, farmers and agribusiness professionals who work to improve crop yields, livestock care and environmental conversation to ensure a stable food supply for communities countrywide."
     },
     {
         "id":"6",
         "field":"Law & govt",
-        "image":"/images/law.jpeg",
+        "image":"https://discover.jkuat.ac.ke/wp-content/uploads/law.jpg",
         "description":"Law and government is a field dedicated to upholding justice, creating policies and serving the public. Careers in this field include lawyers, judges, law enforcemnt officers and government officials who work to interpret laws, protect citizens and shape policies that impact society."
     },
     {
         "id":"7",
         "field":"Hospitality",
-        "image":"/images/hospitality.jpeg",
+        "image":"https://media.licdn.com/dms/image/v2/D4E12AQGAv2b1yWaSwg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1672084999667?e=2147483647&v=beta&t=yUq6yCNwnpHLMzhBrvPYp2Uhk7U8Z2VCOmi_SQZ-b04",
         "description":"Hospitality is a dynamic field focused on providing excellent customer service in areas like tourism, lodging, food service and event planning. Careers in this industry include hotel managers,chefs,travel agents and event coordinators who create memorable experiences and ensure guest satisfaction."
     }
  ]
