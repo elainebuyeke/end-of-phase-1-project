@@ -16,7 +16,7 @@ body {
 }
 
 .main-page{
-    background-image: url(/images/careers.jpg);
+    background-image: url(../images/careers.jpg);
     min-height: 100vh;
     background-size:cover ;
     background-position: center;
