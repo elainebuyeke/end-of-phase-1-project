@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const careerList = document.getElementById("career-list");
 const careerInfo = document.getElementById("career-info");
-const emailForm = document.getElementById("email-form");
+const emailForm = document.getElementById("details-form");
 let careerFields = document.querySelector(".career-fields");
 
 function fetchCareers() {
-    fetch("http://localhost:3000/careers")
+    fetch("https://end-of-phase-1-server.vercel.app/careers")
         .then(response => response.json())
         .then(careers => {
             careers.forEach(career => {
@@ -38,7 +38,7 @@ emailForm.addEventListener("submit", async (event) => {
     const email = document.getElementById("email").value;
 
     try {
-        const response = await fetch("http://localhost:3000/careers", {
+        const response = await fetch("https://end-of-phase-1-server.vercel.app/careers", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email })
@@ -67,7 +67,7 @@ document.querySelector("#change-form").addEventListener("submit", (event) => {
         return;
     }
 
-    fetch(`http://localhost:3000/careers/${careerId}`, {
+    fetch(`https://end-of-phase-1-server.vercel.app/careers${careerId}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ description: newDescription })
